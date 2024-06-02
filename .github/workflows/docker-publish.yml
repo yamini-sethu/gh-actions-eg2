@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: yamini-sethu/gh-actions-eg2/.github/workflows/python-ci-workflow.yml@v1
+    uses: yamini-sethu/gh-actions-eg2/.github/workflows/python-ci-workflow.yml@main
     permissions:
        contents: read
   build:
