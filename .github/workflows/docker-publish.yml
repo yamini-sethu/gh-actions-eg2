@@ -31,6 +31,7 @@ jobs:
     uses: yamini-sethu/gh-actions-eg1/.github/workflows/python-ci-workflow.yml@main
     permissions:
        contents: read
+       checks: write
 
   build:
     needs: integration
